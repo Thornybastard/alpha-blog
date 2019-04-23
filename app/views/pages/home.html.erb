@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<style media="screen">
+  body {background-color: mediumaquamarine}
+  h1 {font-size: 48px; color: darkblue; font-family: verdana; text-align: center;}
+  p {color: darkmagenta; font-size: 120%;}
+  .center {display: block; margin-left: auto; margin-right: auto}
+</style>
+<body>
+
+<h1>Are you welcome here?</h1>
+<%= image_tag 'PirateBanner' %>
+<h2 style="text-align:center;">If not, please go away.</h2>
+<h3 style="text-align:center;">If so, please stay.</h3>
+
+<h2>Here is a list of things you'll need:</h2>
+<ul style="font-size:130%;">
+  <li>booty</li>
+  <li>a sword</li>
+  <li>rum</li>
+  <li>earings</li>
+  <li>a ship</li>
+  <li>a hook</li>
+  <li>a santa suit</li>
+</ul>
+
+<%= image_tag 'santa.jpg' %>
+
+<p>Don't forget to check out why we're here at
+<%= link_to 'About', about_path %> </p>
+
+
+
+
+
+
+</body>
+</html>
