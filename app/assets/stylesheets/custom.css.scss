@@ -1,2 +1,91 @@
+$navbar-default-bg: #CCCC99;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #412c2c;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  color: #dcdcdc;
+  text-decoration: none;
+}
+
+#navlink {
+  color: #fff;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('attack.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+.jumbotron h1 {
+  color: black;
+  text-align: center;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+  .jumbotron p {
+    color: #AF0606;
+    text-align: center;
+    font-size: 220%;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  .btn-xlg {
+    margin-top: 40px;
+    background-color: #81a17f;
+    border-width: thin;
+    border-color: #FFCC00;
+    color: #FFCC00;
+  }
+
+  .btn-xlg:hover {
+    font-size: 1.7em;
+    color: #81a17f;
+    background-color: #FFCC00;
+  }
+
+  footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 2px solid #CCCC99;
+    color: #AF0606;
+  }
+
+  footer small {
+    float: left;
+  }
+
+  footer ul {
+    float: right;
+    list-style: none;
+  }
+
+  footer li {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  footer a {
+    color: #330000;
+  }
+
+  footer a:hover {
+    color: #663300;
+  }
