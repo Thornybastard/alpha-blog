@@ -213,6 +213,7 @@ DEPENDENCIES
   duktape
   jbuilder (~> 2.5)
   jquery-rails
+  nokogiri (~> 1.10, >= 1.10.3)
   pg
   puma (~> 3.11)
   rails (~> 5.2.3)
