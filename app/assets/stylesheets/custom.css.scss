@@ -89,8 +89,19 @@ $navbar-default-bg: #CCCC99;
   .listing {
     list-style: none;
     padding-left: 0
-    
+
   }
+
+  .badge {
+    background-color: #CCCC99;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .input_checkbox input {
+    width: auto !important;
+  }
+
 
   footer {
     margin-top: 45px;
